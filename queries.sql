@@ -3,7 +3,7 @@ SELECT * FROM wealth;
 SELECT * FROM covid;
 SELECT * FROM mobility;
 
--- Join wealth and covid tables on county
+-- Join wealth and covid tables on country
 SELECT w.country, w.income_per_person, c.deaths, c.mortality_rate
 FROM wealth AS w
 INNER JOIN covid AS c
