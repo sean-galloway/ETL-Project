@@ -27,3 +27,18 @@ CREATE TABLE mobility (
     workplaces REAL,
     residential REAL
 )
+--Drop duplicate tables
+DROP TABLE IF EXISTS adolescent;
+DROP TABLE IF EXISTS infant;
+--Create adolescent table
+CREATE TABLE adolescent (
+    country TEXT PRIMARY KEY,
+    year INTEGER,
+    rate REAL
+);
+--Create infant table
+CREATE TABLE infant (
+    country TEXT PRIMARY KEY,
+    year INTEGER,
+    rate REAL
+);
