@@ -12,6 +12,10 @@ Date Warehousing - Extract, Transform and Load
 
 <https://www.kaggle.com/paultimothymooney/coronavirus-covid19-mortality-rate-by-country?select=global_covid19_mortality_rates.csv>
 
+### Covid-19 mobility report
+
+<https://www.google.com/covid19/mobility/>
+
 ## Breakdown of Tasks
 
 * Extract: Load csv data for all data sets (python/pandas)
