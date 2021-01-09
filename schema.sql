@@ -2,6 +2,8 @@
 DROP TABLE IF EXISTS wealth;
 DROP TABLE IF EXISTS covid;
 DROP TABLE IF EXISTS mobility;
+DROP TABLE IF EXISTS adolescent;
+DROP TABLE IF EXISTS infant;
 
 -- Create wealth table
 CREATE TABLE wealth (
@@ -27,9 +29,6 @@ CREATE TABLE mobility (
     workplaces REAL,
     residential REAL
 )
---Drop duplicate tables
-DROP TABLE IF EXISTS adolescent;
-DROP TABLE IF EXISTS infant;
 --Create adolescent table
 CREATE TABLE adolescent (
     country TEXT PRIMARY KEY,
