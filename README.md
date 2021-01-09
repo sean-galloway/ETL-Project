@@ -14,6 +14,6 @@ Date Warehousing - Extract, Transform and Load
 
 ## Breakdown of Tasks
 
-  Extract: Load csv data for all data sets (python/pandas)
-  Transform: Clean and normalize data using pandas (loc, melt, groupby, merge).
-  Load: Use sqlalchemy to load clean data into a PostgreSQL Database.
+* Extract: Load csv data for all data sets (python/pandas)
+* Transform: Clean and normalize data using pandas (loc, melt, groupby, merge).
+* Load: Use sqlalchemy to load clean data into a PostgreSQL Database.
