@@ -1,10 +1,10 @@
 # ETL-Project
 
-Date Warehousing - Extract, Transform and Load
+Data Warehousing - Extract, Transform and Load
 
 ## Date Sources
 
-### Wealth per capita data per country
+### Wealth per capita per country data
 
 <https://www.kaggle.com/psterk/income-inequality?select=combined_final_last_10_years.csv>
 
