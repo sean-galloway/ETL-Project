@@ -24,6 +24,10 @@ Data Warehousing - Extract, Transform and Load
 
 <https://www.google.com/covid19/mobility/>
 
+### Internet Usage by Individuals Based on % of Population
+
+<https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2019&start=1990>
+
 ## Breakdown of Tasks
 
 * Extract: Load csv data for all data sets (python/pandas)
