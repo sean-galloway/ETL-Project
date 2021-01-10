@@ -45,7 +45,7 @@ CREATE TABLE infant (
 -- Drop the tables if they exist
 DROP TABLE IF EXISTS internet_use_by_pecent_popul;
 
--- Create wealth table
+-- Create intenet_usage table
 CREATE TABLE internet_use_by_pecent_popul (
     country TEXT PRIMARY KEY,
     country_code TEXT,
