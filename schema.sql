@@ -31,13 +31,15 @@ CREATE TABLE mobility (
 )
 --Create adolescent table
 CREATE TABLE adolescent (
-    country TEXT PRIMARY KEY,
+    id serial PRIMARY KEY,
+    country TEXT,
     year INTEGER,
     rate REAL
 );
 --Create infant table
 CREATE TABLE infant (
-    country TEXT PRIMARY KEY,
+    id serial PRIMARY KEY,
+    country TEXT,
     year INTEGER,
     rate REAL
 );
