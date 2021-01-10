@@ -42,3 +42,13 @@ CREATE TABLE infant (
     year INTEGER,
     rate REAL
 );
+
+-- Drop the tables if they exist
+DROP TABLE IF EXISTS internet_use_by_pecent_popul;
+
+-- Create wealth table
+CREATE TABLE internet_use_by_pecent_popul (
+    country TEXT PRIMARY KEY,
+    country_code TEXT,
+	"2015" INT, "2016" INT, "2017" INT, "2018" INT, "2019" INT
+);
