@@ -4,6 +4,7 @@ SELECT * FROM covid;
 SELECT * FROM mobility;
 SELECT * FROM adolescent;
 SELECT * FROM infant;
+SELECT * FROM internet_use_by_pecent_popul;
 
 -- Join wealth and covid tables on country
 SELECT w.country, w.income_per_person, c.deaths, c.mortality_rate
@@ -45,3 +46,9 @@ SELECT w.country, w.income_per_person, i.mortality_rate
 FROM infant as i
 INNER JOIN wealth as w 
 ON w.country=i.country;
+
+-- Join covid and 2019 internet usage on country
+SELECT c.country, c.deaths, c.mortality_rate, i."2019"
+FROM internet_use_by_pecent_popul as i
+INNER JOIN covid AS c
+ON i.country = c.country AND c.deaths > 1000;
