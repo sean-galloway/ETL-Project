@@ -47,8 +47,15 @@ FROM infant as i
 INNER JOIN wealth as w 
 ON w.country=i.country;
 
+--See all 2019 Null Internet Usage Countries
+SELECT * FROM internet_use_by_pecent_popul 
+WHERE internet_use_by_pecent_popul."2019" IS NULL;
+
 -- Join covid and 2019 internet usage on country
-SELECT c.country, c.deaths, c.mortality_rate, i."2019"
+SELECT c.country, c.mortality_rate, i."2019"
 FROM internet_use_by_pecent_popul as i
 INNER JOIN covid AS c
-ON i.country = c.country AND c.deaths > 1000;
+ON i.country = c.country AND c.deaths > 1000 AND i."2019" < 50;
+
+
+
