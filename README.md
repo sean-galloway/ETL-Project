@@ -1,8 +1,6 @@
-# ETL-Project
+# Extraction Transformation Loading of Data
 
-Data Warehousing - Extract, Transform and Load
-
-## Data Sources
+The scope of this project is to demonstrate the process of extraction, transformation, and loading of raw data into a form that can be used for data analysis. Used data from the website kaggle. The following specific sources were used:
 
 ### Wealth per capita per country data
 
@@ -28,8 +26,20 @@ Data Warehousing - Extract, Transform and Load
 
 <https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2019&start=1990>
 
-## Breakdown of Tasks
+## Built with
 
-* Extract: Load csv data for all data sets (python/pandas)
-* Transform: Clean and normalize data using pandas (loc, melt, groupby, merge).
-* Load: Use sqlalchemy to load clean data into a PostgreSQL Database.
+* SQL Server
+* Pandas
+* Python
+* Sqlalchemy
+
+## Authors
+
+* **Cora Micsunescu**
+* **Sean Galloway**
+* **Eliot Chern**
+* **Peter Vlahos**
+
+## Acknowledgments
+
+* Our instructional team, Erik Conser and Andrew Morrison, for answering our questions during office hours.
